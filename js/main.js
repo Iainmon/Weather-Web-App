@@ -1,4 +1,4 @@
-//hi
+//hi hello
 var weather = null;
 var error = null;
 var Place = null;
