@@ -83,7 +83,7 @@ function printWeather(place, CorF) {
 function otherPlace() {
     var localPlace = document.getElementById('otherPlace').value;
     printWeather(localPlace, 'F');
-} 
+}
 
 
 
