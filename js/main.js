@@ -77,7 +77,7 @@ function printWeather(place, CorF) {
                 document.getElementById("body").innerHTML = '<img style="width:200px;height:200px;" src="' + icon + '">' + '<h1>The weather in ' + Place + ' is currently ' + weather + '. The tempreture is ' + temp + '° ' + CorF + ', but feels like ' + feelsLike + '° ' + CorF + ', because of the ' + humid + '% humidity.</h1>' +
                     '<button type="button" class="btn btn-default" onclick="location.reload(true);">Back</button>';
             }
-        }
+        } 
 }
 
 function otherPlace() {
