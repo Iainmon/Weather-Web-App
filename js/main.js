@@ -33,11 +33,7 @@ function printWeather(place, CorF) {
                 var temp = dat.current.temp_c;
                 var feelsLike = dat.current.feelslike_c;
                 var CorF = 'Celsius'
-                /*
-                document.getElementById("CorFButton").innerHTML = 'Fahrenheit';
-                document.getElementById("CorFButton").onclick = "CorF('F');";
-                createPage(place, temp, weather, feelsLike, humid, type);
-                Debug('C');*/
+
             } else if (CorF == 'F') {
                 //sets prefference to ferenhight
                 document.getElementById("CorFDiv").innerHTML = '<button id="CorFButton" type="button" onclick="CorF" class="btn btn-warning"></button>';
@@ -46,10 +42,6 @@ function printWeather(place, CorF) {
                 var temp = dat.current.temp_f;
                 var feelsLike = dat.current.feelslike_f;
                 var CorF = 'Fahrenheit';
-                /*document.getElementById("CorFButton").innerHTML = 'Celsius';
-                document.getElementById("CorFButton").onclick = "CorF('C');";
-                createPage(place, temp, weather, feelsLike, humid, type);
-                Debug('F');*/
             }
 
 
