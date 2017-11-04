@@ -81,6 +81,7 @@ function otherPlace() {
 
 function getLocation() {
     document.getElementById('body').innerHTML = '<img src="loading.gif">';
+    document.getElementById("beta").innerHTML = '';
     var x = document.getElementById("demo");
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
